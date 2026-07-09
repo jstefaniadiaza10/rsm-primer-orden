@@ -36,7 +36,8 @@ def render_sidebar() -> None:
         st.page_link("pages/7_pareto.py", label="📉 Pareto")
         st.page_link("pages/8_ascenso.py", label="🚀 Ascenso Más Pronunciado")
         st.page_link("pages/9_reporte.py", label="📄 Reporte")
-
+        st.page_link("pages/10_declaracion_ia.py", label="🤖 Uso de IA")
+        
         st.markdown(
             """
 

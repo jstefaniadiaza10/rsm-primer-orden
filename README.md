@@ -60,3 +60,27 @@ Inicio
 → Pareto de Efectos
 → Ascenso Más Pronunciado
 → Reporte Ejecutivo
+---
+
+## Declaración de uso de Inteligencia Artificial
+
+Para el desarrollo de este aplicativo se utilizó asistencia de inteligencia artificial generativa, específicamente **ChatGPT de OpenAI**, como herramienta de apoyo técnico y académico.
+
+El uso de IA se aplicó en:
+
+- Organización de la estructura del proyecto.
+- Apoyo en la redacción técnica y documentación.
+- Sugerencias de diseño visual e interfaz.
+- Generación y depuración asistida de código en Python y Streamlit.
+- Apoyo en la explicación metodológica de los módulos de análisis.
+- Estructuración del reporte ejecutivo y del flujo de navegación.
+
+La inteligencia artificial no sustituyó el criterio académico ni estadístico del autor. Las decisiones metodológicas, validaciones, interpretación de resultados y revisión final fueron responsabilidad del desarrollador del aplicativo.
+
+### Herramientas utilizadas
+
+| Herramienta | Uso principal |
+|---|---|
+| ChatGPT - OpenAI | Asistencia en programación, documentación, depuración y estructuración metodológica |
+
+El uso de IA fue de carácter complementario y transparente, respetando los principios de honestidad académica, trazabilidad y responsabilidad académica.
