@@ -1,0 +1,327 @@
+/* ==========================================================
+   OCULTAR NAVEGACIÓN AUTOMÁTICA DE STREAMLIT
+   ========================================================== */
+
+[data-testid="stSidebarNav"] {
+    display: none !important;
+}
+
+[data-testid="stSidebarNavItems"] {
+    display: none !important;
+}
+
+section[data-testid="stSidebar"] > div:first-child {
+    padding-top: 0rem !important;
+}
+
+#MainMenu {
+    visibility: hidden !important;
+}
+
+footer {
+    visibility: hidden !important;
+}
+
+header {
+    visibility: hidden !important;
+}
+
+/* ==============================
+   RSM Primer Orden - Estilo base
+   ============================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+html, body, [class*="css"] {
+    font-family: 'Inter', sans-serif;
+}
+
+.stApp {
+    background: #F8FAFC;
+}
+
+/* Ocultar elementos estándar */
+#MainMenu {
+    visibility: hidden;
+}
+
+footer {
+    visibility: hidden;
+}
+
+header {
+    visibility: visible !important;
+}
+
+/* Contenedor principal */
+.block-container {
+    padding-top: 1.6rem;
+    padding-bottom: 2rem;
+    max-width: 1250px;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background: linear-gradient(180deg, #0F172A 0%, #1E3A8A 100%);
+}
+
+section[data-testid="stSidebar"] * {
+    color: white;
+}
+
+/* Hero */
+.hero {
+    background: linear-gradient(135deg, #1E3A8A 0%, #2563EB 55%, #10B981 100%);
+    border-radius: 26px;
+    padding: 38px 42px;
+    color: white;
+    box-shadow: 0 20px 45px rgba(30, 58, 138, 0.25);
+    margin-bottom: 28px;
+}
+
+.hero-title {
+    font-size: 42px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.hero-subtitle {
+    font-size: 18px;
+    opacity: 0.92;
+    max-width: 760px;
+    line-height: 1.6;
+}
+
+.hero-badge {
+    display: inline-block;
+    background: rgba(255,255,255,0.18);
+    border: 1px solid rgba(255,255,255,0.28);
+    color: white;
+    padding: 8px 14px;
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+/* Tarjetas */
+.card {
+    background: #FFFFFF;
+    border-radius: 22px;
+    padding: 24px;
+    border: 1px solid #E5E7EB;
+    box-shadow: 0 12px 30px rgba(15, 23, 42, 0.06);
+    min-height: 178px;
+    transition: all 0.22s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 18px 45px rgba(15, 23, 42, 0.12);
+    border-color: #93C5FD;
+}
+
+.card-icon {
+    font-size: 32px;
+    margin-bottom: 14px;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: 750;
+    color: #1F2937;
+    margin-bottom: 8px;
+}
+
+.card-text {
+    font-size: 14px;
+    color: #64748B;
+    line-height: 1.55;
+}
+
+/* Métricas */
+.metric-card {
+    background: #FFFFFF;
+    border-radius: 18px;
+    padding: 20px;
+    border: 1px solid #E5E7EB;
+    box-shadow: 0 10px 24px rgba(15, 23, 42, 0.05);
+}
+
+.metric-value {
+    font-size: 30px;
+    font-weight: 800;
+    color: #1E3A8A;
+}
+
+.metric-label {
+    color: #64748B;
+    font-size: 14px;
+    margin-top: 2px;
+}
+
+/* Secciones */
+.section-title {
+    font-size: 25px;
+    font-weight: 800;
+    color: #0F172A;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.section-subtitle {
+    color: #64748B;
+    font-size: 15px;
+    margin-bottom: 18px;
+}
+
+/* Timeline */
+.step-box {
+    background: #FFFFFF;
+    border-left: 5px solid #10B981;
+    border-radius: 14px;
+    padding: 16px 18px;
+    margin-bottom: 12px;
+    box-shadow: 0 8px 20px rgba(15, 23, 42, 0.05);
+}
+
+.step-title {
+    color: #1F2937;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.step-text {
+    color: #64748B;
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+/* Botones Streamlit */
+.stButton > button {
+    width: 100%;
+    height: 54px;
+    border-radius: 14px;
+    border: none;
+    background: #1E3A8A;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    box-shadow: 0 10px 22px rgba(30, 58, 138, 0.18);
+}
+
+.stButton > button:hover {
+    background: #10B981;
+    color: white;
+    border: none;
+}
+
+/* Línea divisoria */
+hr {
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+/* ==========================================================
+   SIDEBAR PROFESIONAL
+   ========================================================== */
+
+section[data-testid="stSidebar"] {
+    background: linear-gradient(180deg, #0F1E46 0%, #1E3A8A 100%) !important;
+}
+
+section[data-testid="stSidebar"] * {
+    color: white !important;
+}
+
+section[data-testid="stSidebar"] a {
+    text-decoration: none !important;
+}
+
+section[data-testid="stSidebar"] [data-testid="stPageLink"] {
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    margin: 5px 8px;
+    padding: 4px 8px;
+}
+
+section[data-testid="stSidebar"] [data-testid="stPageLink"]:hover {
+    background-color: rgba(16, 185, 129, 0.35);
+}
+
+.sidebar-disabled {
+    font-size: 14px;
+    padding: 8px 16px;
+    margin: 4px 8px;
+    border-radius: 10px;
+    color: rgba(255,255,255,0.55) !important;
+}
+/* ==========================================================
+   PÁGINAS INTERNAS
+   ========================================================== */
+
+.page-header {
+    margin-top: 10px;
+    margin-bottom: 22px;
+}
+
+.page-title {
+    font-size: 34px;
+    font-weight: 800;
+    color: #1E3A8A;
+    margin-bottom: 4px;
+}
+
+.page-subtitle {
+    font-size: 15px;
+    color: #64748B;
+}
+
+div[data-testid="stVerticalBlockBorderWrapper"] {
+    background-color: white;
+    border-radius: 18px;
+    border: 1px solid #E5E7EB;
+    box-shadow: 0px 8px 24px rgba(15, 23, 42, 0.08);
+    padding: 8px;
+}
+
+/* =====================================================
+   TARJETAS COMPACTAS PARA VARIABLE RESPUESTA
+===================================================== */
+
+.response-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 14px;
+    margin-top: 10px;
+    margin-bottom: 18px;
+}
+
+.response-card {
+    background: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    border-radius: 14px;
+    padding: 12px 16px;
+    box-shadow: 0px 6px 18px rgba(15, 23, 42, 0.06);
+}
+
+.response-card-title {
+    font-size: 12px;
+    color: #64748B;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    margin-bottom: 5px;
+}
+
+.response-card-value {
+    font-size: 16px;
+    color: #1F2937;
+    font-weight: 700;
+    line-height: 1.25;
+}
+
+@media (max-width: 900px) {
+    .response-grid {
+        grid-template-columns: 1fr;
+    }
+}
