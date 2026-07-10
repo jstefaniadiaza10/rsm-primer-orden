@@ -325,3 +325,180 @@ div[data-testid="stVerticalBlockBorderWrapper"] {
         grid-template-columns: 1fr;
     }
 }
+/* ================================
+   PORTADA / LANDING PAGE
+================================ */
+
+.hero-container {
+    background: linear-gradient(135deg, #0F1E46 0%, #1E3A8A 55%, #10B981 100%);
+    border-radius: 28px;
+    padding: 42px 46px;
+    color: white;
+    box-shadow: 0px 18px 45px rgba(15, 30, 70, 0.22);
+    margin-bottom: 28px;
+}
+
+.hero-badge {
+    display: inline-block;
+    background: rgba(255,255,255,0.16);
+    border: 1px solid rgba(255,255,255,0.22);
+    padding: 7px 13px;
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.hero-title {
+    font-size: 46px;
+    line-height: 1.05;
+    font-weight: 900;
+    margin-bottom: 16px;
+}
+
+.hero-subtitle {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 850px;
+    opacity: 0.94;
+}
+
+.hero-footer {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-top: 24px;
+}
+
+.hero-chip {
+    background: rgba(255,255,255,0.14);
+    border: 1px solid rgba(255,255,255,0.22);
+    padding: 9px 13px;
+    border-radius: 12px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.landing-card {
+    background: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    border-radius: 20px;
+    padding: 22px;
+    box-shadow: 0px 8px 24px rgba(15, 23, 42, 0.08);
+    min-height: 205px;
+}
+
+.landing-card-title {
+    color: #1E3A8A;
+    font-weight: 850;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.landing-card-text {
+    color: #475569;
+    font-size: 15px;
+    line-height: 1.55;
+}
+
+.step-box {
+    background: #FFFFFF;
+    border-left: 5px solid #1E3A8A;
+    border-radius: 16px;
+    padding: 15px 18px;
+    margin-bottom: 12px;
+    box-shadow: 0px 6px 18px rgba(15, 23, 42, 0.06);
+}
+
+.step-title {
+    font-weight: 800;
+    color: #1E3A8A;
+    margin-bottom: 4px;
+}
+
+.step-text {
+    color: #475569;
+    font-size: 14px;
+}
+
+.example-pill {
+    display: inline-block;
+    background: #EFF6FF;
+    color: #1E3A8A;
+    border: 1px solid #DBEAFE;
+    padding: 8px 12px;
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 700;
+    margin: 4px 4px 4px 0;
+}
+
+.locked-module {
+    background: #F8FAFC;
+    border: 1px dashed #CBD5E1;
+    border-radius: 16px;
+    padding: 14px 16px;
+    color: #64748B;
+    font-size: 14px;
+}
+
+/* ================================
+   CAJAS DE AYUDA / INFORMACIÓN
+================================ */
+
+.info-panel {
+    background: #EFF6FF;
+    border: 1px solid #BFDBFE;
+    border-left: 5px solid #1E3A8A;
+    border-radius: 14px;
+    padding: 14px 18px;
+    margin: 12px 0 18px 0;
+}
+
+.info-panel-title {
+    font-weight: 850;
+    color: #1E3A8A;
+    font-size: 15px;
+    margin-bottom: 6px;
+}
+
+.info-panel-text {
+    color: #334155;
+    font-size: 14px;
+    line-height: 1.55;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 14px;
+    margin-top: 10px;
+    margin-bottom: 18px;
+}
+
+.info-mini-card {
+    background: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    border-radius: 14px;
+    padding: 14px;
+    box-shadow: 0px 6px 16px rgba(15, 23, 42, 0.06);
+}
+
+.info-mini-title {
+    color: #1E3A8A;
+    font-weight: 800;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.info-mini-text {
+    color: #475569;
+    font-size: 13px;
+    line-height: 1.45;
+}
+
+@media (max-width: 900px) {
+    .info-grid {
+        grid-template-columns: 1fr;
+    }
+}
