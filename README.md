@@ -84,3 +84,9 @@ La inteligencia artificial no sustituyó el criterio académico ni estadístico 
 | ChatGPT - OpenAI | Asistencia en programación, documentación, depuración y estructuración metodológica |
 
 El uso de IA fue de carácter complementario y transparente, respetando los principios de honestidad académica, trazabilidad y responsabilidad académica.
+
+## Manual de usuario
+
+El proyecto incluye un manual completo de uso en el archivo:
+
+[MANUAL_USUARIO.md](MANUAL_USUARIO.md)
