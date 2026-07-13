@@ -1,0 +1,12 @@
+Corrida,Temperatura_C,Tiempo_min,Humedad_inicial_pct,Puntaje_sensorial,Tipo
+1,120,20,6,78.4,Factorial
+2,140,20,6,83.6,Factorial
+3,120,40,6,81.9,Factorial
+4,140,40,6,87.2,Factorial
+5,120,20,10,76.1,Factorial
+6,140,20,10,81.5,Factorial
+7,120,40,10,79.8,Factorial
+8,140,40,10,85.1,Factorial
+9,130,30,8,82.9,Centro
+10,130,30,8,83.4,Centro
+11,130,30,8,82.6,Centro

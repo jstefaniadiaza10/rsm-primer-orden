@@ -90,3 +90,10 @@ El uso de IA fue de carácter complementario y transparente, respetando los prin
 El proyecto incluye un manual completo de uso en el archivo:
 
 [MANUAL_USUARIO.md](MANUAL_USUARIO.md)
+
+## Datos de prueba
+
+El repositorio incluye un archivo de datos de prueba para ejecutar el flujo completo del aplicativo:
+
+```text
+data/datos_prueba_cacao.csv
